@@ -1,0 +1,51 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.image {
+  height: 400px;
+  width: 400px;
+}
+
+.name {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    height: 260px;
+    width: 260px;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 9991px) {
+  .image {
+    height: 280px;
+    width: 280px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    height: 360px;
+    width: 360px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+}
